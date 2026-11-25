@@ -2,10 +2,14 @@
 
 Writes a single deterministic pickup line to /output/entry.txt.
 Standard library only; no network, no randomness, no time dependence.
+The line plays on the double meaning of "prompt": an input to a model and a cue in conversation.
 """
 
 import os
 
+# The joke: the speaker is a prompt, and a model's job is to complete
+# prompts — so being "completed" by the other party is both flirtation
+# and a literal description of what the listener does.
 LINE = "I must be a prompt, because you keep completing me."
 
 
